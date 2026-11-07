@@ -7,8 +7,8 @@
     "Partial files are counted but their contents are not published or validated.",
     "This publisher never starts, cancels, or resubmits a search."
   ],
-  "completed_primes": 15996,
-  "completion_percent_by_prime_count": 54.3361,
+  "completed_primes": 15999,
+  "completion_percent_by_prime_count": 54.3463,
   "example_for_largest_root_count": {
     "N_p": 17,
     "a": 137,
@@ -21,20 +21,44 @@
     "start": 599492,
     "stop": 1000003
   },
-  "largest_completed_prime": 815063,
+  "largest_completed_prime": 815159,
   "largest_saved_root_count": 17,
-  "matching_active_jobs": [
-    {
-      "elapsed": "4:34:48",
-      "job_id": "7176",
-      "state": "RUNNING",
-      "time_limit": "8-08:00:00"
-    }
-  ],
-  "most_recent_accounting_record": null,
+  "matching_active_jobs": [],
+  "most_recent_accounting_record": {
+    "elapsed": "04:38:28",
+    "end": "2026-11-06T18:10:42",
+    "exit_code": "0:0",
+    "job_id": "7176",
+    "state": "COMPLETED",
+    "time_limit": "8-08:00:00"
+  },
   "most_recent_matching_job_id": "7176",
   "partial_checkpoint_files_present": 16,
   "recent_completions": [
+    {
+      "N_p": 15,
+      "a": 125,
+      "c": 27408,
+      "d": 561,
+      "job_id": "7176",
+      "p": 815123
+    },
+    {
+      "N_p": 13,
+      "a": 169,
+      "c": 61961,
+      "d": 545,
+      "job_id": "7176",
+      "p": 815141
+    },
+    {
+      "N_p": 14,
+      "a": 195,
+      "c": 83229,
+      "d": 844,
+      "job_id": "7176",
+      "p": 815159
+    },
     {
       "N_p": 14,
       "a": 43,
@@ -410,39 +434,15 @@
       "d": 748,
       "job_id": "7176",
       "p": 814447
-    },
-    {
-      "N_p": 14,
-      "a": 13,
-      "c": 45491,
-      "d": 462,
-      "job_id": "7176",
-      "p": 814399
-    },
-    {
-      "N_p": 13,
-      "a": 61,
-      "c": 17494,
-      "d": 323,
-      "job_id": "7176",
-      "p": 814469
-    },
-    {
-      "N_p": 14,
-      "a": 287,
-      "c": 42375,
-      "d": 723,
-      "job_id": "7176",
-      "p": 814393
     }
   ],
-  "remaining_primes": 13443,
-  "results_snapshot_modified_utc": "2026-11-07T00:07:00+00:00",
+  "remaining_primes": 13440,
+  "results_snapshot_modified_utc": "2026-11-07T00:10:42+00:00",
   "schema_version": 1,
   "slurm_query_ok": true,
-  "status": "Search incomplete; matching Slurm allocation(s): 7176 RUNNING",
+  "status": "Search incomplete; no matching job is currently listed by Slurm. A continuation may be needed.",
   "total_primes": 29439,
   "unverified_project_jobs": [],
-  "updated_local": "2026-11-06 18:07:02 CST",
-  "updated_utc": "2026-11-07T00:07:02+00:00"
+  "updated_local": "2026-11-06 19:07:02 CST",
+  "updated_utc": "2026-11-07T01:07:02+00:00"
 }
