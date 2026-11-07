@@ -7,8 +7,8 @@
     "Partial files are counted but their contents are not published or validated.",
     "This publisher never starts, cancels, or resubmits a search."
   ],
-  "completed_primes": 15999,
-  "completion_percent_by_prime_count": 54.3463,
+  "completed_primes": 16028,
+  "completion_percent_by_prime_count": 54.4448,
   "example_for_largest_root_count": {
     "N_p": 17,
     "a": 137,
@@ -16,12 +16,12 @@
     "d": 757,
     "p": 619763
   },
-  "first_unfinished_prime": 815053,
+  "first_unfinished_prime": 815431,
   "interval": {
     "start": 599492,
     "stop": 1000003
   },
-  "largest_completed_prime": 815159,
+  "largest_completed_prime": 815543,
   "largest_saved_root_count": 17,
   "matching_active_jobs": [],
   "most_recent_accounting_record": {
@@ -436,13 +436,20 @@
       "p": 814447
     }
   ],
-  "remaining_primes": 13440,
-  "results_snapshot_modified_utc": "2026-11-07T00:10:42+00:00",
+  "remaining_primes": 13411,
+  "results_snapshot_modified_utc": "2026-11-07T02:07:02+00:00",
   "schema_version": 1,
   "slurm_query_ok": true,
-  "status": "Search incomplete; no matching job is currently listed by Slurm. A continuation may be needed.",
+  "status": "Search incomplete; a project job is queued/active, but its target log is not yet verified.",
   "total_primes": 29439,
-  "unverified_project_jobs": [],
-  "updated_local": "2026-11-06 19:07:02 CST",
-  "updated_utc": "2026-11-07T01:07:02+00:00"
+  "unverified_project_jobs": [
+    {
+      "elapsed": "23:15",
+      "job_id": "7181",
+      "state": "RUNNING",
+      "time_limit": "8-08:00:00"
+    }
+  ],
+  "updated_local": "2026-11-06 20:07:02 CST",
+  "updated_utc": "2026-11-07T02:07:02+00:00"
 }
