@@ -16,7 +16,7 @@ progress { width:100%; height:1.1rem; } .scroll { overflow-x:auto; } table { wid
 </style></head><body>
 <div class="topbar"><h1>winomials - Whistler primitive-trinomial search</h1><button id="theme" type="button">Day / night</button></div>
 <p>Family: x<sup>d</sup> - c x<sup>a</sup> + c - 1, with gcd(a,d,p-1)=1.</p>
-<p class="meta">Publisher snapshot: <strong>2026-11-11 06:07:03 CST</strong></p><p id="freshness" class="meta"></p><div class="notice">Both Whistler assignments complete. This is not a coverage check of the separate bloc305e search.</div><p><strong>Both Whistler assignments together: 22,772 / 22,772 completed; 0 remaining.</strong></p><p>This total covers <strong>only the two intervals below</strong>. The intervening bloc305e interval is not included; its separate publisher is at <a href="https://rojas-mathcs.github.io/uptrue/">uptrue</a>. This page does not fetch or verify the other machine's current progress.</p><p><a href="#original">Original assignment</a> &middot; <a href="#upper_tail">Upper tail</a> &middot; <a href="maxima.tsv">All saved Whistler results (combined TSV)</a> &middot; <a href="status.json">Machine-readable status (JSON)</a></p><p class="meta">Percentages are by prime count, not computation time. Concurrent workers can finish primes out of order.</p><section id="original"><h2>Original Whistler assignment</h2>
+<p class="meta">Publisher snapshot: <strong>2026-11-11 07:07:03 CST</strong></p><p id="freshness" class="meta"></p><div class="notice">Both Whistler assignments complete. This is not a coverage check of the separate bloc305e search.</div><p><strong>Both Whistler assignments together: 22,772 / 22,772 completed; 0 remaining.</strong></p><p>This total covers <strong>only the two intervals below</strong>. The intervening bloc305e interval is not included; its separate publisher is at <a href="https://rojas-mathcs.github.io/uptrue/">uptrue</a>. This page does not fetch or verify the other machine's current progress.</p><p><a href="#original">Original assignment</a> &middot; <a href="#upper_tail">Upper tail</a> &middot; <a href="maxima.tsv">All saved Whistler results (combined TSV)</a> &middot; <a href="status.json">Machine-readable status (JSON)</a></p><p class="meta">Percentages are by prime count, not computation time. Concurrent workers can finish primes out of order.</p><section id="original"><h2>Original Whistler assignment</h2>
 <p>Assigned interval: <strong>599,492 through 900,233</strong>.</p>
 <div class="notice">Assignment complete: every prime in this interval has a saved row.</div>
 <div class="cards">
@@ -163,7 +163,7 @@ Partial checkpoint files present: 0 (presence only; not a validity check).</p>
  const button=document.getElementById('theme');
  function label(){button.textContent=document.documentElement.classList.contains('night')?'Switch to day':'Switch to night';} label();
  button.addEventListener('click',function(){const n=document.documentElement.classList.toggle('night'); try{localStorage.setItem('winomials-theme',n?'night':'day');}catch(e){} label();});
- const stamp="2026-11-11T12:07:03+00:00";
+ const stamp="2026-11-11T13:07:03+00:00";
  function freshness(){const age=(Date.now()-Date.parse(stamp))/3600000; document.getElementById('freshness').textContent=age>2.5?'This snapshot is more than 2.5 hours old. Check the publisher before assuming the displayed job state is current.':'Status reflects the timestamp above; reload to check for a newer publication.';}
  freshness(); setInterval(freshness,60000);
 })();
