@@ -1005,7 +1005,14 @@
   "slurm_query_ok": true,
   "status": "Both Whistler assignments complete. This is not a coverage check of the separate bloc305e search.",
   "total_primes": 22772,
-  "unverified_project_jobs": [],
-  "updated_local": "2026-11-11 09:07:03 CST",
-  "updated_utc": "2026-11-11T15:07:03+00:00"
+  "unverified_project_jobs": [
+    {
+      "elapsed": "4:55",
+      "job_id": "7252",
+      "state": "RUNNING",
+      "time_limit": "8-08:00:00"
+    }
+  ],
+  "updated_local": "2026-11-11 10:07:03 CST",
+  "updated_utc": "2026-11-11T16:07:03+00:00"
 }
