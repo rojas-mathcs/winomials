@@ -3,24 +3,185 @@
     "Percentage is by completed prime count, not CPU work.",
     "This publisher never starts, stops, signals, or restarts jobs."
   ],
-  "completed_primes": 16,
-  "completion_percent_by_prime_count": 0.1388,
-  "first_unfinished_prime": 1000213,
+  "completed_primes": 39,
+  "completion_percent_by_prime_count": 0.3382,
+  "first_unfinished_prime": 1000429,
   "interval": {
     "start": 1000033,
     "stop": 1160000
   },
-  "largest_completed_prime": 1000211,
+  "largest_completed_prime": 1000547,
   "largest_reported_N_p": 15,
   "matching_active_jobs": [
     {
-      "elapsed": "30:26",
+      "elapsed": "1:04:54",
       "job_id": "7252",
       "state": "RUNNING",
       "time_limit": "8-08:00:00"
     }
   ],
   "recent_saved_completions": [
+    {
+      "N_p": 13,
+      "a": 29,
+      "c": 149639,
+      "d": 388,
+      "p": 1000547
+    },
+    {
+      "N_p": 14,
+      "a": 9,
+      "c": 77838,
+      "d": 832,
+      "p": 1000537
+    },
+    {
+      "N_p": 14,
+      "a": 344,
+      "c": 45143,
+      "d": 867,
+      "p": 1000231
+    },
+    {
+      "N_p": 14,
+      "a": 101,
+      "c": 80580,
+      "d": 683,
+      "p": 1000453
+    },
+    {
+      "N_p": 13,
+      "a": 43,
+      "c": 54987,
+      "d": 214,
+      "p": 1000457
+    },
+    {
+      "N_p": 14,
+      "a": 281,
+      "c": 29456,
+      "d": 765,
+      "p": 1000423
+    },
+    {
+      "N_p": 14,
+      "a": 123,
+      "c": 42864,
+      "d": 857,
+      "p": 1000427
+    },
+    {
+      "N_p": 14,
+      "a": 121,
+      "c": 47691,
+      "d": 705,
+      "p": 1000381
+    },
+    {
+      "N_p": 14,
+      "a": 153,
+      "c": 12001,
+      "d": 709,
+      "p": 1000273
+    },
+    {
+      "N_p": 14,
+      "a": 419,
+      "c": 57898,
+      "d": 1212,
+      "p": 1000409
+    },
+    {
+      "N_p": 14,
+      "a": 25,
+      "c": 76949,
+      "d": 684,
+      "p": 1000357
+    },
+    {
+      "N_p": 14,
+      "a": 194,
+      "c": 81379,
+      "d": 543,
+      "p": 1000393
+    },
+    {
+      "N_p": 14,
+      "a": 44,
+      "c": 3135,
+      "d": 1313,
+      "p": 1000291
+    },
+    {
+      "N_p": 14,
+      "a": 343,
+      "c": 107484,
+      "d": 1251,
+      "p": 1000403
+    },
+    {
+      "N_p": 13,
+      "a": 89,
+      "c": 104887,
+      "d": 244,
+      "p": 1000333
+    },
+    {
+      "N_p": 13,
+      "a": 65,
+      "c": 300928,
+      "d": 197,
+      "p": 1000397
+    },
+    {
+      "N_p": 13,
+      "a": 45,
+      "c": 42943,
+      "d": 181,
+      "p": 1000303
+    },
+    {
+      "N_p": 13,
+      "a": 143,
+      "c": 79799,
+      "d": 420,
+      "p": 1000367
+    },
+    {
+      "N_p": 14,
+      "a": 568,
+      "c": 2710,
+      "d": 2045,
+      "p": 1000249
+    },
+    {
+      "N_p": 13,
+      "a": 53,
+      "c": 47550,
+      "d": 380,
+      "p": 1000213
+    },
+    {
+      "N_p": 13,
+      "a": 27,
+      "c": 50488,
+      "d": 112,
+      "p": 1000313
+    },
+    {
+      "N_p": 14,
+      "a": 235,
+      "c": 55298,
+      "d": 1143,
+      "p": 1000289
+    },
+    {
+      "N_p": 13,
+      "a": 89,
+      "c": 31238,
+      "d": 213,
+      "p": 1000253
+    },
     {
       "N_p": 14,
       "a": 56,
@@ -134,11 +295,11 @@
       "p": 1000187
     }
   ],
-  "remaining_primes": 11515,
-  "results_snapshot_modified_utc": "2026-11-11T16:31:53+00:00",
+  "remaining_primes": 11492,
+  "results_snapshot_modified_utc": "2026-11-11T17:06:56+00:00",
   "schema_version": 1,
   "status": "Assignment incomplete; matching Slurm allocation(s): 7252 RUNNING",
   "total_primes": 11531,
-  "updated_local": "2026-11-11 10:32:34 CST",
-  "updated_utc": "2026-11-11T16:32:34+00:00"
+  "updated_local": "2026-11-11 11:07:02 CST",
+  "updated_utc": "2026-11-11T17:07:02+00:00"
 }
