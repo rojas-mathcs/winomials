@@ -1,170 +1,36 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8">
+<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>winomials - both Whistler assignments</title>
-<script>try { if(localStorage.getItem('winomials-theme')==='night') document.documentElement.classList.add('night'); } catch(e) {}</script>
+<title>winomials - Whistler primitive-trinomial search</title>
+<script>try{if(localStorage.getItem('winomials-theme')==='night')document.documentElement.classList.add('night')}catch(e){}</script>
 <style>
-:root { --bg:#fff; --fg:#111; --sub:#555; --panel:#f7f7f7; --border:#bbb; --accent:#155e75; }
-:root.night { --bg:#080808; --fg:#eee; --sub:#bbb; --panel:#151515; --border:#555; --accent:#67d5eb; }
-* { box-sizing:border-box; } body { max-width:1100px; margin:auto; padding:1.2rem; font-family:system-ui,sans-serif; line-height:1.55; background:var(--bg); color:var(--fg); }
-.topbar { display:flex; gap:1rem; justify-content:space-between; align-items:center; } h1 { font-size:1.5rem; margin:.2rem 0; } h2 { font-size:1.3rem; } h3 { font-size:1.05rem; margin-top:1.5rem; }
-a { color:var(--accent); } button { cursor:pointer; padding:.45rem .7rem; border:1px solid var(--border); border-radius:5px; color:var(--fg); background:var(--panel); }
-.meta { color:var(--sub); } .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:.7rem; margin:1rem 0; }
-.card { padding:.9rem; border:1px solid var(--border); border-radius:6px; background:var(--panel); } .value { font-size:1.5rem; font-weight:600; }
-progress { width:100%; height:1.1rem; } .scroll { overflow-x:auto; } table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; } th,td { text-align:right; padding:.45rem .55rem; border-bottom:1px solid var(--border); white-space:nowrap; } th { background:var(--panel); }
-.notice { padding:.8rem; border-left:4px solid var(--accent); background:var(--panel); } section { border-top:1px solid var(--border); margin-top:2rem; padding-top:1rem; } footer { font-size:.88rem; color:var(--sub); margin-top:2rem; }
+:root{--bg:#fff;--fg:#111;--sub:#555;--panel:#f7f7f7;--border:#bbb;--accent:#155e75}
+:root.night{--bg:#080808;--fg:#eee;--sub:#bbb;--panel:#151515;--border:#555;--accent:#67d5eb}
+*{box-sizing:border-box}body{max-width:1100px;margin:auto;padding:1.2rem;font-family:system-ui,sans-serif;line-height:1.55;background:var(--bg);color:var(--fg)}
+.topbar{display:flex;gap:1rem;justify-content:space-between;align-items:center}h1{font-size:1.5rem;margin:.2rem 0}h2{font-size:1.15rem;margin-top:1.6rem}
+button{cursor:pointer;padding:.45rem .7rem;border:1px solid var(--border);border-radius:5px;color:var(--fg);background:var(--panel)}
+.meta{color:var(--sub)}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.7rem;margin:1rem 0}
+.card{padding:.9rem;border:1px solid var(--border);border-radius:6px;background:var(--panel)}.value{font-size:1.5rem;font-weight:600}
+progress{width:100%;height:1.1rem}.scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{text-align:right;padding:.45rem .55rem;border-bottom:1px solid var(--border);white-space:nowrap}th{background:var(--panel)}
+.notice{padding:.8rem;border-left:4px solid var(--accent);background:var(--panel)}footer{font-size:.88rem;color:var(--sub);margin-top:2rem}
 </style></head><body>
-<div class="topbar"><h1>winomials - Whistler primitive-trinomial search</h1><button id="theme" type="button">Day / night</button></div>
-<p>Family: x<sup>d</sup> - c x<sup>a</sup> + c - 1, with gcd(a,d,p-1)=1.</p>
-<p class="meta">Publisher snapshot: <strong>2026-11-11 10:07:03 CST</strong></p><p id="freshness" class="meta"></p><div class="notice">Both Whistler assignments complete. This is not a coverage check of the separate bloc305e search.</div><p><strong>Both Whistler assignments together: 22,772 / 22,772 completed; 0 remaining.</strong></p><p>This total covers <strong>only the two intervals below</strong>. The intervening bloc305e interval is not included; its separate publisher is at <a href="https://rojas-mathcs.github.io/uptrue/">uptrue</a>. This page does not fetch or verify the other machine's current progress.</p><p><a href="#original">Original assignment</a> &middot; <a href="#upper_tail">Upper tail</a> &middot; <a href="maxima.tsv">All saved Whistler results (combined TSV)</a> &middot; <a href="status.json">Machine-readable status (JSON)</a></p><p class="meta">Percentages are by prime count, not computation time. Concurrent workers can finish primes out of order.</p><p class="meta">Other project jobs awaiting target-log verification: 7252 RUNNING.</p><section id="original"><h2>Original Whistler assignment</h2>
-<p>Assigned interval: <strong>599,492 through 900,233</strong>.</p>
-<div class="notice">Assignment complete: every prime in this interval has a saved row.</div>
+<div class="topbar"><h1>winomials - Whistler primitive-trinomial search</h1><button id="theme">Day / night</button></div>
+<p>Exact scanner results for primes in [1,000,033, 1,160,000]. Family:
+x<sup>d</sup> - c x<sup>a</sup> + c - 1, with gcd(a,d,p-1)=1.</p>
+<p class="meta">Publisher snapshot: <strong>2026-11-11 10:21:12 CST</strong><br>Saved-table modification time: 2026-11-11T16:20:32+00:00</p>
+<div class="notice">Assignment incomplete; matching Slurm allocation(s): 7252 RUNNING</div>
 <div class="cards">
-<div class="card">Completed primes<div class="value">22,232 / 22,232</div></div>
-<div class="card">Remaining primes<div class="value">0</div></div>
-<div class="card">Completed by count<div class="value">100.00%</div></div>
-<div class="card">Largest reported N<sub>p</sub><div class="value">19</div></div>
-</div><progress value="22232" max="22232">100.00%</progress>
-<p>First unfinished prime: <strong>none</strong>. Largest completed prime: <strong>900,233</strong>.<br>
-Partial checkpoint files present: 0 (presence only; not a validity check).</p>
-<p class="meta">Saved-table modification time (UTC): 2026-11-10T21:46:15+00:00</p>
-<h3>Current Slurm allocations for this assignment</h3>
-<div class="scroll"><table><thead><tr><th>Job</th><th>State</th><th>Elapsed</th><th>Limit</th></tr></thead><tbody>
-<tr><td colspan="4">No verified matching allocation listed; see assignment status above.</td></tr>
-</tbody></table></div>
-<p class="meta">Last matching allocation: job 7181, COMPLETED, exit 0:0. Job termination alone does not establish coverage.</p>
-<h3>Recent saved completions for this assignment</h3>
-<p class="meta">Up to 50 matching DONE records, newest first, across recent matching runs. Only rows also present in the saved table are shown.</p>
-<div class="scroll"><table><thead><tr><th>Job</th><th>p</th><th>N<sub>p</sub></th><th>d</th><th>a</th><th>c</th></tr></thead><tbody>
-<tr><td>7181</td><td>900,187</td><td>13</td><td>233</td><td>56</td><td>131,577</td></tr>
-<tr><td>7181</td><td>900,217</td><td>14</td><td>8,165</td><td>107</td><td>80,843</td></tr>
-<tr><td>7181</td><td>900,121</td><td>14</td><td>523</td><td>216</td><td>20,089</td></tr>
-<tr><td>7181</td><td>900,233</td><td>13</td><td>297</td><td>29</td><td>25,474</td></tr>
-<tr><td>7181</td><td>900,061</td><td>14</td><td>4,303</td><td>85</td><td>4,506</td></tr>
-<tr><td>7181</td><td>900,091</td><td>14</td><td>1,275</td><td>368</td><td>8,297</td></tr>
-<tr><td>7181</td><td>900,169</td><td>14</td><td>417</td><td>97</td><td>35,906</td></tr>
-<tr><td>7181</td><td>900,103</td><td>15</td><td>411</td><td>80</td><td>68,254</td></tr>
-<tr><td>7181</td><td>900,157</td><td>14</td><td>627</td><td>106</td><td>32,634</td></tr>
-<tr><td>7181</td><td>900,161</td><td>14</td><td>1,399</td><td>320</td><td>20,053</td></tr>
-<tr><td>7181</td><td>900,139</td><td>14</td><td>900</td><td>323</td><td>24,793</td></tr>
-<tr><td>7181</td><td>900,149</td><td>15</td><td>857</td><td>4</td><td>9,767</td></tr>
-<tr><td>7181</td><td>900,143</td><td>14</td><td>217</td><td>82</td><td>16,409</td></tr>
-<tr><td>7181</td><td>900,019</td><td>14</td><td>1,015</td><td>219</td><td>62,432</td></tr>
-<tr><td>7181</td><td>900,001</td><td>14</td><td>550</td><td>109</td><td>5,953</td></tr>
-<tr><td>7181</td><td>900,089</td><td>14</td><td>755</td><td>112</td><td>144,641</td></tr>
-<tr><td>7181</td><td>900,037</td><td>14</td><td>501</td><td>92</td><td>101,373</td></tr>
-<tr><td>7181</td><td>899,971</td><td>14</td><td>123</td><td>7</td><td>7,027</td></tr>
-<tr><td>7181</td><td>899,851</td><td>14</td><td>1,371</td><td>155</td><td>192,281</td></tr>
-<tr><td>7181</td><td>900,007</td><td>14</td><td>581</td><td>230</td><td>131,854</td></tr>
-<tr><td>7181</td><td>899,893</td><td>14</td><td>572</td><td>241</td><td>47,209</td></tr>
-<tr><td>7181</td><td>899,981</td><td>14</td><td>1,297</td><td>171</td><td>81,088</td></tr>
-<tr><td>7181</td><td>899,881</td><td>14</td><td>265</td><td>77</td><td>61,640</td></tr>
-<tr><td>7181</td><td>899,917</td><td>14</td><td>349</td><td>173</td><td>39,744</td></tr>
-<tr><td>7181</td><td>899,939</td><td>14</td><td>1,090</td><td>353</td><td>54,750</td></tr>
-<tr><td>7181</td><td>899,903</td><td>14</td><td>1,824</td><td>169</td><td>25,230</td></tr>
-<tr><td>7181</td><td>899,791</td><td>14</td><td>895</td><td>58</td><td>54,534</td></tr>
-<tr><td>7181</td><td>899,863</td><td>13</td><td>295</td><td>89</td><td>19,481</td></tr>
-<tr><td>7181</td><td>899,891</td><td>13</td><td>425</td><td>202</td><td>80,262</td></tr>
-<tr><td>7181</td><td>899,761</td><td>15</td><td>1,605</td><td>526</td><td>43,843</td></tr>
-<tr><td>7181</td><td>899,831</td><td>13</td><td>514</td><td>25</td><td>4,556</td></tr>
-<tr><td>7181</td><td>899,779</td><td>15</td><td>1,146</td><td>473</td><td>55,886</td></tr>
-<tr><td>7181</td><td>899,849</td><td>14</td><td>1,677</td><td>242</td><td>12,735</td></tr>
-<tr><td>7181</td><td>899,807</td><td>13</td><td>463</td><td>62</td><td>77,157</td></tr>
-<tr><td>7181</td><td>899,671</td><td>14</td><td>1,212</td><td>493</td><td>39,872</td></tr>
-<tr><td>7181</td><td>899,711</td><td>14</td><td>607</td><td>255</td><td>36,506</td></tr>
-<tr><td>7181</td><td>899,611</td><td>14</td><td>1,197</td><td>128</td><td>86,527</td></tr>
-<tr><td>7181</td><td>899,749</td><td>14</td><td>601</td><td>42</td><td>558</td></tr>
-<tr><td>7181</td><td>899,719</td><td>13</td><td>343</td><td>82</td><td>70,718</td></tr>
-<tr><td>7181</td><td>899,753</td><td>14</td><td>900</td><td>233</td><td>29,491</td></tr>
-<tr><td>7181</td><td>899,491</td><td>13</td><td>197</td><td>72</td><td>214,509</td></tr>
-<tr><td>7181</td><td>899,693</td><td>13</td><td>301</td><td>18</td><td>113,458</td></tr>
-<tr><td>7181</td><td>899,659</td><td>14</td><td>1,450</td><td>209</td><td>45,269</td></tr>
-<tr><td>7181</td><td>899,617</td><td>14</td><td>2,082</td><td>331</td><td>76,101</td></tr>
-<tr><td>7181</td><td>899,681</td><td>14</td><td>944</td><td>393</td><td>38,841</td></tr>
-<tr><td>7181</td><td>899,687</td><td>14</td><td>749</td><td>248</td><td>90,152</td></tr>
-<tr><td>7181</td><td>899,473</td><td>14</td><td>8,337</td><td>44</td><td>56,479</td></tr>
-<tr><td>7181</td><td>899,531</td><td>14</td><td>875</td><td>262</td><td>30,228</td></tr>
-<tr><td>7181</td><td>899,537</td><td>14</td><td>886</td><td>73</td><td>223,936</td></tr>
-<tr><td>7181</td><td>899,477</td><td>14</td><td>479</td><td>201</td><td>59,097</td></tr>
-</tbody></table></div></section>
-<section id="upper_tail"><h2>Additional Whistler upper-tail assignment</h2>
-<p>Assigned interval: <strong>992,500 through 1,000,003</strong>.</p>
-<div class="notice">Assignment complete: every prime in this interval has a saved row.</div>
-<div class="cards">
-<div class="card">Completed primes<div class="value">540 / 540</div></div>
-<div class="card">Remaining primes<div class="value">0</div></div>
-<div class="card">Completed by count<div class="value">100.00%</div></div>
-<div class="card">Largest reported N<sub>p</sub><div class="value">17</div></div>
-</div><progress value="540" max="540">100.00%</progress>
-<p>First unfinished prime: <strong>none</strong>. Largest completed prime: <strong>1,000,003</strong>.<br>
-Partial checkpoint files present: 0 (presence only; not a validity check).</p>
-<p class="meta">Saved-table modification time (UTC): 2026-11-11T10:48:20+00:00</p>
-<h3>Current Slurm allocations for this assignment</h3>
-<div class="scroll"><table><thead><tr><th>Job</th><th>State</th><th>Elapsed</th><th>Limit</th></tr></thead><tbody>
-<tr><td colspan="4">No verified matching allocation listed; see assignment status above.</td></tr>
-</tbody></table></div>
-<p class="meta">Last matching allocation: job 7243, COMPLETED, exit 0:0. Job termination alone does not establish coverage.</p>
-<h3>Recent saved completions for this assignment</h3>
-<p class="meta">Up to 50 matching DONE records, newest first, across recent matching runs. Only rows also present in the saved table are shown.</p>
-<div class="scroll"><table><thead><tr><th>Job</th><th>p</th><th>N<sub>p</sub></th><th>d</th><th>a</th><th>c</th></tr></thead><tbody>
-<tr><td>7243</td><td>999,961</td><td>14</td><td>1,573</td><td>428</td><td>42,169</td></tr>
-<tr><td>7243</td><td>999,979</td><td>14</td><td>981</td><td>206</td><td>112,712</td></tr>
-<tr><td>7243</td><td>1,000,003</td><td>14</td><td>987</td><td>410</td><td>73,188</td></tr>
-<tr><td>7243</td><td>999,983</td><td>14</td><td>233</td><td>76</td><td>102,054</td></tr>
-<tr><td>7243</td><td>999,931</td><td>14</td><td>346</td><td>129</td><td>73,875</td></tr>
-<tr><td>7243</td><td>999,959</td><td>14</td><td>206</td><td>39</td><td>232,891</td></tr>
-<tr><td>7243</td><td>999,953</td><td>14</td><td>1,006</td><td>127</td><td>236,182</td></tr>
-<tr><td>7243</td><td>999,769</td><td>13</td><td>416</td><td>161</td><td>52,619</td></tr>
-<tr><td>7243</td><td>999,853</td><td>13</td><td>319</td><td>17</td><td>99,910</td></tr>
-<tr><td>7243</td><td>999,727</td><td>14</td><td>819</td><td>16</td><td>22,504</td></tr>
-<tr><td>7243</td><td>999,883</td><td>14</td><td>1,387</td><td>147</td><td>4,057</td></tr>
-<tr><td>7243</td><td>999,907</td><td>15</td><td>939</td><td>227</td><td>43,589</td></tr>
-<tr><td>7243</td><td>999,721</td><td>14</td><td>13,903</td><td>36</td><td>55,321</td></tr>
-<tr><td>7243</td><td>999,917</td><td>14</td><td>935</td><td>92</td><td>52,853</td></tr>
-<tr><td>7243</td><td>999,763</td><td>14</td><td>1,036</td><td>309</td><td>11,605</td></tr>
-<tr><td>7243</td><td>999,863</td><td>14</td><td>1,383</td><td>32</td><td>15,406</td></tr>
-<tr><td>7243</td><td>999,809</td><td>13</td><td>492</td><td>121</td><td>129,502</td></tr>
-<tr><td>7243</td><td>999,631</td><td>14</td><td>881</td><td>252</td><td>63,735</td></tr>
-<tr><td>7243</td><td>999,667</td><td>13</td><td>131</td><td>2</td><td>103,436</td></tr>
-<tr><td>7243</td><td>999,773</td><td>14</td><td>1,141</td><td>379</td><td>549</td></tr>
-<tr><td>7243</td><td>999,671</td><td>15</td><td>632</td><td>269</td><td>3,255</td></tr>
-<tr><td>7243</td><td>999,749</td><td>14</td><td>1,199</td><td>312</td><td>33,157</td></tr>
-<tr><td>7243</td><td>999,683</td><td>14</td><td>847</td><td>71</td><td>15,326</td></tr>
-<tr><td>7243</td><td>999,613</td><td>14</td><td>1,219</td><td>605</td><td>42,145</td></tr>
-<tr><td>7243</td><td>999,541</td><td>15</td><td>382</td><td>41</td><td>78,948</td></tr>
-<tr><td>7243</td><td>999,653</td><td>13</td><td>437</td><td>200</td><td>7,121</td></tr>
-<tr><td>7243</td><td>999,623</td><td>14</td><td>718</td><td>201</td><td>54,962</td></tr>
-<tr><td>7243</td><td>999,451</td><td>14</td><td>1,067</td><td>306</td><td>80,428</td></tr>
-<tr><td>7243</td><td>999,611</td><td>13</td><td>592</td><td>125</td><td>130,573</td></tr>
-<tr><td>7243</td><td>999,599</td><td>13</td><td>356</td><td>59</td><td>124,069</td></tr>
-<tr><td>7243</td><td>999,499</td><td>14</td><td>1,864</td><td>57</td><td>109,395</td></tr>
-<tr><td>7243</td><td>999,553</td><td>13</td><td>388</td><td>131</td><td>75,146</td></tr>
-<tr><td>7243</td><td>999,433</td><td>14</td><td>522</td><td>235</td><td>48,869</td></tr>
-<tr><td>7243</td><td>999,563</td><td>14</td><td>369</td><td>166</td><td>65,871</td></tr>
-<tr><td>7243</td><td>999,529</td><td>14</td><td>1,208</td><td>199</td><td>84,228</td></tr>
-<tr><td>7243</td><td>999,181</td><td>16</td><td>38,443</td><td>26</td><td>117,569</td></tr>
-<tr><td>7243</td><td>999,521</td><td>14</td><td>974</td><td>465</td><td>22,212</td></tr>
-<tr><td>7243</td><td>999,491</td><td>14</td><td>1,093</td><td>302</td><td>75,078</td></tr>
-<tr><td>7243</td><td>999,307</td><td>14</td><td>1,037</td><td>222</td><td>37,287</td></tr>
-<tr><td>7243</td><td>999,437</td><td>14</td><td>515</td><td>32</td><td>140,087</td></tr>
-<tr><td>7243</td><td>999,431</td><td>14</td><td>976</td><td>423</td><td>50,648</td></tr>
-<tr><td>7243</td><td>999,331</td><td>14</td><td>2,427</td><td>296</td><td>53,851</td></tr>
-<tr><td>7243</td><td>999,389</td><td>13</td><td>280</td><td>59</td><td>101,242</td></tr>
-<tr><td>7243</td><td>999,377</td><td>13</td><td>31</td><td>1</td><td>232,225</td></tr>
-<tr><td>7243</td><td>999,371</td><td>13</td><td>201</td><td>83</td><td>9,355</td></tr>
-<tr><td>7243</td><td>999,329</td><td>14</td><td>505</td><td>136</td><td>90,424</td></tr>
-<tr><td>7243</td><td>999,359</td><td>14</td><td>503</td><td>204</td><td>150,919</td></tr>
-<tr><td>7243</td><td>999,221</td><td>14</td><td>1,262</td><td>19</td><td>1,646</td></tr>
-<tr><td>7243</td><td>999,199</td><td>14</td><td>1,069</td><td>464</td><td>3,100</td></tr>
-<tr><td>7243</td><td>999,217</td><td>14</td><td>243</td><td>47</td><td>88,904</td></tr>
-</tbody></table></div></section><footer>Read-only progress publisher, not an independent proof or root recount. It does not submit, stop, or restart jobs. Only public summaries and saved result rows are published; checkpoints and raw logs stay on Whistler. The two original tables are never modified. Snapshot timestamps are not a continuously live connection.</footer>
-<script>
-(function(){
- const button=document.getElementById('theme');
- function label(){button.textContent=document.documentElement.classList.contains('night')?'Switch to day':'Switch to night';} label();
- button.addEventListener('click',function(){const n=document.documentElement.classList.toggle('night'); try{localStorage.setItem('winomials-theme',n?'night':'day');}catch(e){} label();});
- const stamp="2026-11-11T16:07:03+00:00";
- function freshness(){const age=(Date.now()-Date.parse(stamp))/3600000; document.getElementById('freshness').textContent=age>2.5?'This snapshot is more than 2.5 hours old. Check the publisher before assuming the displayed job state is current.':'Status reflects the timestamp above; reload to check for a newer publication.';}
- freshness(); setInterval(freshness,60000);
-})();
-</script></body></html>
+<div class="card">Completed primes<div class="value">5 / 11,531</div></div>
+<div class="card">Remaining primes<div class="value">11,526</div></div>
+<div class="card">Completed by count<div class="value">0.04%</div></div>
+<div class="card">Largest reported N<sub>p</sub><div class="value">15</div></div></div>
+<progress value="5" max="11531">0.04%</progress>
+<p>First unfinished prime: <strong>1,000,033</strong>. Largest completed prime: <strong>1,000,199</strong>.</p>
+<p class="meta">Completion percentage is by prime count, not estimated computation time. Workers may finish primes out of order.</p>
+<p><a href="maxima.tsv">All completed results (TSV)</a> &middot; <a href="status.json">Machine-readable status (JSON)</a></p>
+<h2>Current Slurm allocations</h2><div class="scroll"><table><thead><tr><th>Job</th><th>State</th><th>Elapsed</th><th>Limit</th></tr></thead><tbody><tr><td>7252</td><td>RUNNING</td><td>19:04</td><td>8-08:00:00</td></tr></tbody></table></div>
+<h2>Recent saved completions for this assignment</h2><p class="meta">Up to 50 matching DONE records, newest first.</p>
+<div class="scroll"><table><thead><tr><th>p</th><th>N<sub>p</sub></th><th>d</th><th>a</th><th>c</th></tr></thead><tbody><tr><td>1,000,151</td><td>14</td><td>1,117</td><td>302</td><td>226,622</td></tr><tr><td>1,000,199</td><td>14</td><td>619</td><td>87</td><td>142,340</td></tr><tr><td>1,000,037</td><td>15</td><td>698</td><td>345</td><td>9,358</td></tr><tr><td>1,000,193</td><td>14</td><td>2,169</td><td>23</td><td>181,036</td></tr><tr><td>1,000,187</td><td>14</td><td>861</td><td>5</td><td>112,810</td></tr></tbody></table></div>
+<footer>Read-only progress publisher. It does not submit, stop, signal, or restart jobs. Snapshot timestamps are not a continuously live connection.</footer>
+<script>(function(){const b=document.getElementById('theme');function l(){b.textContent=document.documentElement.classList.contains('night')?'Switch to day':'Switch to night'}l();b.onclick=function(){const n=document.documentElement.classList.toggle('night');try{localStorage.setItem('winomials-theme',n?'night':'day')}catch(e){}l()}})();</script>
+</body></html>
