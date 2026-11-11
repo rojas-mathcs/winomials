@@ -488,8 +488,8 @@
       "total_primes": 22232
     },
     {
-      "completed_primes": 465,
-      "completion_percent_by_prime_count": 86.1111,
+      "completed_primes": 506,
+      "completion_percent_by_prime_count": 93.7037,
       "example_for_largest_root_count": {
         "N_p": 17,
         "a": 183,
@@ -497,19 +497,19 @@
         "d": 424,
         "p": 993893
       },
-      "first_unfinished_prime": 998831,
+      "first_unfinished_prime": 999433,
       "id": "upper_tail",
       "interval": {
         "start": 992500,
         "stop": 1000003
       },
       "label": "Additional Whistler upper-tail assignment",
-      "largest_completed_prime": 998927,
+      "largest_completed_prime": 999529,
       "largest_saved_root_count": 17,
       "matching_active_jobs": [
         {
           "assignment": "upper_tail",
-          "elapsed": "10:28:01",
+          "elapsed": "11:28:00",
           "job_id": "7243",
           "state": "RUNNING",
           "time_limit": "2-00:00:00"
@@ -519,6 +519,375 @@
       "most_recent_matching_job_id": "7243",
       "partial_checkpoint_files_present": 16,
       "recent_completions": [
+        {
+          "N_p": 14,
+          "a": 199,
+          "assignment": "upper_tail",
+          "c": 84228,
+          "d": 1208,
+          "job_id": "7243",
+          "p": 999529
+        },
+        {
+          "N_p": 16,
+          "a": 26,
+          "assignment": "upper_tail",
+          "c": 117569,
+          "d": 38443,
+          "job_id": "7243",
+          "p": 999181
+        },
+        {
+          "N_p": 14,
+          "a": 465,
+          "assignment": "upper_tail",
+          "c": 22212,
+          "d": 974,
+          "job_id": "7243",
+          "p": 999521
+        },
+        {
+          "N_p": 14,
+          "a": 302,
+          "assignment": "upper_tail",
+          "c": 75078,
+          "d": 1093,
+          "job_id": "7243",
+          "p": 999491
+        },
+        {
+          "N_p": 14,
+          "a": 222,
+          "assignment": "upper_tail",
+          "c": 37287,
+          "d": 1037,
+          "job_id": "7243",
+          "p": 999307
+        },
+        {
+          "N_p": 14,
+          "a": 32,
+          "assignment": "upper_tail",
+          "c": 140087,
+          "d": 515,
+          "job_id": "7243",
+          "p": 999437
+        },
+        {
+          "N_p": 14,
+          "a": 423,
+          "assignment": "upper_tail",
+          "c": 50648,
+          "d": 976,
+          "job_id": "7243",
+          "p": 999431
+        },
+        {
+          "N_p": 14,
+          "a": 296,
+          "assignment": "upper_tail",
+          "c": 53851,
+          "d": 2427,
+          "job_id": "7243",
+          "p": 999331
+        },
+        {
+          "N_p": 13,
+          "a": 59,
+          "assignment": "upper_tail",
+          "c": 101242,
+          "d": 280,
+          "job_id": "7243",
+          "p": 999389
+        },
+        {
+          "N_p": 13,
+          "a": 1,
+          "assignment": "upper_tail",
+          "c": 232225,
+          "d": 31,
+          "job_id": "7243",
+          "p": 999377
+        },
+        {
+          "N_p": 13,
+          "a": 83,
+          "assignment": "upper_tail",
+          "c": 9355,
+          "d": 201,
+          "job_id": "7243",
+          "p": 999371
+        },
+        {
+          "N_p": 14,
+          "a": 136,
+          "assignment": "upper_tail",
+          "c": 90424,
+          "d": 505,
+          "job_id": "7243",
+          "p": 999329
+        },
+        {
+          "N_p": 14,
+          "a": 204,
+          "assignment": "upper_tail",
+          "c": 150919,
+          "d": 503,
+          "job_id": "7243",
+          "p": 999359
+        },
+        {
+          "N_p": 14,
+          "a": 19,
+          "assignment": "upper_tail",
+          "c": 1646,
+          "d": 1262,
+          "job_id": "7243",
+          "p": 999221
+        },
+        {
+          "N_p": 14,
+          "a": 464,
+          "assignment": "upper_tail",
+          "c": 3100,
+          "d": 1069,
+          "job_id": "7243",
+          "p": 999199
+        },
+        {
+          "N_p": 14,
+          "a": 47,
+          "assignment": "upper_tail",
+          "c": 88904,
+          "d": 243,
+          "job_id": "7243",
+          "p": 999217
+        },
+        {
+          "N_p": 15,
+          "a": 379,
+          "assignment": "upper_tail",
+          "c": 12717,
+          "d": 1874,
+          "job_id": "7243",
+          "p": 999287
+        },
+        {
+          "N_p": 14,
+          "a": 573,
+          "assignment": "upper_tail",
+          "c": 52576,
+          "d": 1438,
+          "job_id": "7243",
+          "p": 999233
+        },
+        {
+          "N_p": 13,
+          "a": 35,
+          "assignment": "upper_tail",
+          "c": 75639,
+          "d": 331,
+          "job_id": "7243",
+          "p": 999239
+        },
+        {
+          "N_p": 14,
+          "a": 24,
+          "assignment": "upper_tail",
+          "c": 88918,
+          "d": 145,
+          "job_id": "7243",
+          "p": 999269
+        },
+        {
+          "N_p": 14,
+          "a": 180,
+          "assignment": "upper_tail",
+          "c": 15477,
+          "d": 11191,
+          "job_id": "7243",
+          "p": 999091
+        },
+        {
+          "N_p": 14,
+          "a": 198,
+          "assignment": "upper_tail",
+          "c": 80449,
+          "d": 1039,
+          "job_id": "7243",
+          "p": 999169
+        },
+        {
+          "N_p": 15,
+          "a": 507,
+          "assignment": "upper_tail",
+          "c": 33990,
+          "d": 1513,
+          "job_id": "7243",
+          "p": 999133
+        },
+        {
+          "N_p": 14,
+          "a": 466,
+          "assignment": "upper_tail",
+          "c": 31282,
+          "d": 1251,
+          "job_id": "7243",
+          "p": 999149
+        },
+        {
+          "N_p": 14,
+          "a": 39,
+          "assignment": "upper_tail",
+          "c": 94267,
+          "d": 1084,
+          "job_id": "7243",
+          "p": 999043
+        },
+        {
+          "N_p": 14,
+          "a": 97,
+          "assignment": "upper_tail",
+          "c": 63387,
+          "d": 821,
+          "job_id": "7243",
+          "p": 999101
+        },
+        {
+          "N_p": 14,
+          "a": 144,
+          "assignment": "upper_tail",
+          "c": 2737,
+          "d": 529,
+          "job_id": "7243",
+          "p": 999067
+        },
+        {
+          "N_p": 14,
+          "a": 59,
+          "assignment": "upper_tail",
+          "c": 122157,
+          "d": 697,
+          "job_id": "7243",
+          "p": 999083
+        },
+        {
+          "N_p": 14,
+          "a": 17,
+          "assignment": "upper_tail",
+          "c": 149110,
+          "d": 125,
+          "job_id": "7243",
+          "p": 999007
+        },
+        {
+          "N_p": 14,
+          "a": 413,
+          "assignment": "upper_tail",
+          "c": 14555,
+          "d": 1301,
+          "job_id": "7243",
+          "p": 998989
+        },
+        {
+          "N_p": 14,
+          "a": 40,
+          "assignment": "upper_tail",
+          "c": 139200,
+          "d": 3081,
+          "job_id": "7243",
+          "p": 999049
+        },
+        {
+          "N_p": 13,
+          "a": 17,
+          "assignment": "upper_tail",
+          "c": 27162,
+          "d": 201,
+          "job_id": "7243",
+          "p": 998983
+        },
+        {
+          "N_p": 14,
+          "a": 218,
+          "assignment": "upper_tail",
+          "c": 1571,
+          "d": 555,
+          "job_id": "7243",
+          "p": 998941
+        },
+        {
+          "N_p": 14,
+          "a": 241,
+          "assignment": "upper_tail",
+          "c": 7080,
+          "d": 570,
+          "job_id": "7243",
+          "p": 999029
+        },
+        {
+          "N_p": 13,
+          "a": 17,
+          "assignment": "upper_tail",
+          "c": 63917,
+          "d": 42,
+          "job_id": "7243",
+          "p": 999023
+        },
+        {
+          "N_p": 14,
+          "a": 539,
+          "assignment": "upper_tail",
+          "c": 105124,
+          "d": 1114,
+          "job_id": "7243",
+          "p": 998947
+        },
+        {
+          "N_p": 15,
+          "a": 240,
+          "assignment": "upper_tail",
+          "c": 130696,
+          "d": 893,
+          "job_id": "7243",
+          "p": 998951
+        },
+        {
+          "N_p": 14,
+          "a": 141,
+          "assignment": "upper_tail",
+          "c": 44149,
+          "d": 1076,
+          "job_id": "7243",
+          "p": 998969
+        },
+        {
+          "N_p": 13,
+          "a": 43,
+          "assignment": "upper_tail",
+          "c": 6673,
+          "d": 591,
+          "job_id": "7243",
+          "p": 998957
+        },
+        {
+          "N_p": 14,
+          "a": 213,
+          "assignment": "upper_tail",
+          "c": 17547,
+          "d": 532,
+          "job_id": "7243",
+          "p": 998831
+        },
+        {
+          "N_p": 15,
+          "a": 199,
+          "assignment": "upper_tail",
+          "c": 34436,
+          "d": 4364,
+          "job_id": "7243",
+          "p": 998917
+        },
         {
           "N_p": 14,
           "a": 377,
@@ -599,379 +968,10 @@
           "d": 895,
           "job_id": "7243",
           "p": 998819
-        },
-        {
-          "N_p": 14,
-          "a": 302,
-          "assignment": "upper_tail",
-          "c": 39346,
-          "d": 1023,
-          "job_id": "7243",
-          "p": 998551
-        },
-        {
-          "N_p": 14,
-          "a": 61,
-          "assignment": "upper_tail",
-          "c": 168133,
-          "d": 482,
-          "job_id": "7243",
-          "p": 998749
-        },
-        {
-          "N_p": 14,
-          "a": 22,
-          "assignment": "upper_tail",
-          "c": 137113,
-          "d": 377,
-          "job_id": "7243",
-          "p": 998743
-        },
-        {
-          "N_p": 13,
-          "a": 114,
-          "assignment": "upper_tail",
-          "c": 6788,
-          "d": 287,
-          "job_id": "7243",
-          "p": 998813
-        },
-        {
-          "N_p": 13,
-          "a": 41,
-          "assignment": "upper_tail",
-          "c": 55517,
-          "d": 239,
-          "job_id": "7243",
-          "p": 998759
-        },
-        {
-          "N_p": 14,
-          "a": 57,
-          "assignment": "upper_tail",
-          "c": 51721,
-          "d": 1355,
-          "job_id": "7243",
-          "p": 998737
-        },
-        {
-          "N_p": 14,
-          "a": 378,
-          "assignment": "upper_tail",
-          "c": 171311,
-          "d": 3823,
-          "job_id": "7243",
-          "p": 998689
-        },
-        {
-          "N_p": 14,
-          "a": 23,
-          "assignment": "upper_tail",
-          "c": 73157,
-          "d": 5749,
-          "job_id": "7243",
-          "p": 998717
-        },
-        {
-          "N_p": 14,
-          "a": 151,
-          "assignment": "upper_tail",
-          "c": 10244,
-          "d": 570,
-          "job_id": "7243",
-          "p": 998653
-        },
-        {
-          "N_p": 13,
-          "a": 172,
-          "assignment": "upper_tail",
-          "c": 27068,
-          "d": 457,
-          "job_id": "7243",
-          "p": 998681
-        },
-        {
-          "N_p": 14,
-          "a": 641,
-          "assignment": "upper_tail",
-          "c": 6232,
-          "d": 1706,
-          "job_id": "7243",
-          "p": 998629
-        },
-        {
-          "N_p": 14,
-          "a": 337,
-          "assignment": "upper_tail",
-          "c": 154156,
-          "d": 2380,
-          "job_id": "7243",
-          "p": 998651
-        },
-        {
-          "N_p": 16,
-          "a": 41,
-          "assignment": "upper_tail",
-          "c": 92106,
-          "d": 231,
-          "job_id": "7243",
-          "p": 998687
-        },
-        {
-          "N_p": 14,
-          "a": 75,
-          "assignment": "upper_tail",
-          "c": 17900,
-          "d": 776,
-          "job_id": "7243",
-          "p": 998623
-        },
-        {
-          "N_p": 14,
-          "a": 195,
-          "assignment": "upper_tail",
-          "c": 127039,
-          "d": 1112,
-          "job_id": "7243",
-          "p": 998617
-        },
-        {
-          "N_p": 13,
-          "a": 85,
-          "assignment": "upper_tail",
-          "c": 12960,
-          "d": 354,
-          "job_id": "7243",
-          "p": 998539
-        },
-        {
-          "N_p": 13,
-          "a": 17,
-          "assignment": "upper_tail",
-          "c": 1118,
-          "d": 705,
-          "job_id": "7243",
-          "p": 998633
-        },
-        {
-          "N_p": 14,
-          "a": 67,
-          "assignment": "upper_tail",
-          "c": 890,
-          "d": 475,
-          "job_id": "7243",
-          "p": 998561
-        },
-        {
-          "N_p": 13,
-          "a": 59,
-          "assignment": "upper_tail",
-          "c": 126677,
-          "d": 260,
-          "job_id": "7243",
-          "p": 998537
-        },
-        {
-          "N_p": 14,
-          "a": 99,
-          "assignment": "upper_tail",
-          "c": 35099,
-          "d": 1097,
-          "job_id": "7243",
-          "p": 998527
-        },
-        {
-          "N_p": 14,
-          "a": 234,
-          "assignment": "upper_tail",
-          "c": 25071,
-          "d": 769,
-          "job_id": "7243",
-          "p": 998411
-        },
-        {
-          "N_p": 15,
-          "a": 237,
-          "assignment": "upper_tail",
-          "c": 20443,
-          "d": 626,
-          "job_id": "7243",
-          "p": 998471
-        },
-        {
-          "N_p": 14,
-          "a": 213,
-          "assignment": "upper_tail",
-          "c": 267467,
-          "d": 2425,
-          "job_id": "7243",
-          "p": 998497
-        },
-        {
-          "N_p": 13,
-          "a": 2,
-          "assignment": "upper_tail",
-          "c": 45007,
-          "d": 215,
-          "job_id": "7243",
-          "p": 998443
-        },
-        {
-          "N_p": 14,
-          "a": 18,
-          "assignment": "upper_tail",
-          "c": 85699,
-          "d": 47,
-          "job_id": "7243",
-          "p": 998513
-        },
-        {
-          "N_p": 15,
-          "a": 493,
-          "assignment": "upper_tail",
-          "c": 3679,
-          "d": 1387,
-          "job_id": "7243",
-          "p": 998419
-        },
-        {
-          "N_p": 13,
-          "a": 59,
-          "assignment": "upper_tail",
-          "c": 53989,
-          "d": 609,
-          "job_id": "7243",
-          "p": 998311
-        },
-        {
-          "N_p": 14,
-          "a": 67,
-          "assignment": "upper_tail",
-          "c": 87859,
-          "d": 750,
-          "job_id": "7243",
-          "p": 998377
-        },
-        {
-          "N_p": 14,
-          "a": 294,
-          "assignment": "upper_tail",
-          "c": 63085,
-          "d": 737,
-          "job_id": "7243",
-          "p": 998423
-        },
-        {
-          "N_p": 13,
-          "a": 148,
-          "assignment": "upper_tail",
-          "c": 136350,
-          "d": 413,
-          "job_id": "7243",
-          "p": 998429
-        },
-        {
-          "N_p": 13,
-          "a": 93,
-          "assignment": "upper_tail",
-          "c": 52257,
-          "d": 545,
-          "job_id": "7243",
-          "p": 998381
-        },
-        {
-          "N_p": 14,
-          "a": 220,
-          "assignment": "upper_tail",
-          "c": 204514,
-          "d": 899,
-          "job_id": "7243",
-          "p": 998399
-        },
-        {
-          "N_p": 14,
-          "a": 87,
-          "assignment": "upper_tail",
-          "c": 20524,
-          "d": 1112,
-          "job_id": "7243",
-          "p": 998281
-        },
-        {
-          "N_p": 14,
-          "a": 200,
-          "assignment": "upper_tail",
-          "c": 57833,
-          "d": 557,
-          "job_id": "7243",
-          "p": 998353
-        },
-        {
-          "N_p": 13,
-          "a": 29,
-          "assignment": "upper_tail",
-          "c": 90332,
-          "d": 63,
-          "job_id": "7243",
-          "p": 998329
-        },
-        {
-          "N_p": 14,
-          "a": 229,
-          "assignment": "upper_tail",
-          "c": 24143,
-          "d": 1156,
-          "job_id": "7243",
-          "p": 998201
-        },
-        {
-          "N_p": 14,
-          "a": 419,
-          "assignment": "upper_tail",
-          "c": 206325,
-          "d": 1343,
-          "job_id": "7243",
-          "p": 998287
-        },
-        {
-          "N_p": 14,
-          "a": 19,
-          "assignment": "upper_tail",
-          "c": 15136,
-          "d": 756,
-          "job_id": "7243",
-          "p": 998161
-        },
-        {
-          "N_p": 14,
-          "a": 19,
-          "assignment": "upper_tail",
-          "c": 43854,
-          "d": 552,
-          "job_id": "7243",
-          "p": 998243
-        },
-        {
-          "N_p": 15,
-          "a": 77,
-          "assignment": "upper_tail",
-          "c": 115388,
-          "d": 1599,
-          "job_id": "7243",
-          "p": 998167
-        },
-        {
-          "N_p": 14,
-          "a": 235,
-          "assignment": "upper_tail",
-          "c": 529,
-          "d": 1184,
-          "job_id": "7243",
-          "p": 998273
         }
       ],
-      "remaining_primes": 75,
-      "results_snapshot_modified_utc": "2026-11-11T09:05:32+00:00",
+      "remaining_primes": 34,
+      "results_snapshot_modified_utc": "2026-11-11T10:05:30+00:00",
       "status": "Assignment incomplete; matching Slurm allocation(s): 7243 RUNNING",
       "total_primes": 540
     }
@@ -986,8 +986,8 @@
     "Checkpoint files are counted by presence only; their contents are not published or validated.",
     "This publisher never starts, cancels, or resubmits searches."
   ],
-  "completed_primes": 22697,
-  "completion_percent_by_prime_count": 99.6706,
+  "completed_primes": 22738,
+  "completion_percent_by_prime_count": 99.8507,
   "intervals": [
     {
       "start": 599492,
@@ -1001,20 +1001,20 @@
   "matching_active_jobs": [
     {
       "assignment": "upper_tail",
-      "elapsed": "10:28:01",
+      "elapsed": "11:28:00",
       "job_id": "7243",
       "state": "RUNNING",
       "time_limit": "2-00:00:00"
     }
   ],
   "publisher_version": "1.1.0",
-  "remaining_primes": 75,
+  "remaining_primes": 34,
   "schema_version": 2,
   "scope": "whistler_assignments_only",
   "slurm_query_ok": true,
   "status": "Whistler assignments incomplete; see the two separate progress sections below.",
   "total_primes": 22772,
   "unverified_project_jobs": [],
-  "updated_local": "2026-11-11 03:07:04 CST",
-  "updated_utc": "2026-11-11T09:07:04+00:00"
+  "updated_local": "2026-11-11 04:07:04 CST",
+  "updated_utc": "2026-11-11T10:07:04+00:00"
 }
