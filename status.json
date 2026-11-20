@@ -5,7 +5,7 @@
   ],
   "completed_primes": 7524,
   "completion_percent_by_prime_count": 65.2502,
-  "elapsed": "208h 04m",
+  "elapsed": "209h 04m",
   "first_unfinished_prime": 1104241,
   "interval": {
     "start": 1000033,
@@ -371,6 +371,6 @@
   "search_started": "2026-11-11 10:02:09 AM CST",
   "status": "Assignment incomplete; no matching Slurm allocation is currently verified.",
   "total_primes": 11531,
-  "updated_local": "2026-11-20 02:07:02 CST",
-  "updated_utc": "2026-11-20T08:07:02+00:00"
+  "updated_local": "2026-11-20 03:07:02 CST",
+  "updated_utc": "2026-11-20T09:07:02+00:00"
 }
