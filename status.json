@@ -3,15 +3,15 @@
     "Percentage is by completed prime count, not CPU work.",
     "This publisher never starts, stops, signals, or restarts jobs."
   ],
-  "completed_primes": 7625,
-  "completion_percent_by_prime_count": 66.1261,
-  "elapsed": "219h 04m",
-  "first_unfinished_prime": 1105501,
+  "completed_primes": 7659,
+  "completion_percent_by_prime_count": 66.421,
+  "elapsed": "220h 04m",
+  "first_unfinished_prime": 1105963,
   "interval": {
     "start": 1000033,
     "stop": 1160000
   },
-  "largest_completed_prime": 1105613,
+  "largest_completed_prime": 1106087,
   "largest_reported_N_p": 18,
   "matching_active_jobs": [],
   "recent_saved_completions": [
@@ -366,11 +366,11 @@
       "p": 1103467
     }
   ],
-  "remaining_primes": 3906,
+  "remaining_primes": 3872,
   "schema_version": 1,
   "search_started": "2026-11-11 10:02:09 AM CST",
   "status": "Assignment incomplete; no matching Slurm allocation is currently verified.",
   "total_primes": 11531,
-  "updated_local": "2026-11-20 13:07:02 CST",
-  "updated_utc": "2026-11-20T19:07:02+00:00"
+  "updated_local": "2026-11-20 14:07:02 CST",
+  "updated_utc": "2026-11-20T20:07:02+00:00"
 }
