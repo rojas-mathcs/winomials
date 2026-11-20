@@ -3,25 +3,53 @@
     "Percentage is by completed prime count, not CPU work.",
     "This publisher never starts, stops, signals, or restarts jobs."
   ],
-  "completed_primes": 7519,
-  "completion_percent_by_prime_count": 65.2068,
-  "elapsed": "199h 04m",
-  "first_unfinished_prime": 1104139,
+  "completed_primes": 7524,
+  "completion_percent_by_prime_count": 65.2502,
+  "elapsed": "200h 04m",
+  "first_unfinished_prime": 1104241,
   "interval": {
     "start": 1000033,
     "stop": 1160000
   },
-  "largest_completed_prime": 1104209,
+  "largest_completed_prime": 1104293,
   "largest_reported_N_p": 18,
-  "matching_active_jobs": [
-    {
-      "elapsed": "8-07:04:54",
-      "job_id": "7252",
-      "state": "RUNNING",
-      "time_limit": "8-08:00:00"
-    }
-  ],
+  "matching_active_jobs": [],
   "recent_saved_completions": [
+    {
+      "N_p": 15,
+      "a": 149,
+      "c": 128627,
+      "d": 546,
+      "p": 1104289
+    },
+    {
+      "N_p": 14,
+      "a": 217,
+      "c": 87282,
+      "d": 643,
+      "p": 1104221
+    },
+    {
+      "N_p": 14,
+      "a": 65,
+      "c": 46150,
+      "d": 837,
+      "p": 1104293
+    },
+    {
+      "N_p": 14,
+      "a": 296,
+      "c": 237412,
+      "d": 787,
+      "p": 1104139
+    },
+    {
+      "N_p": 13,
+      "a": 219,
+      "c": 6659,
+      "d": 463,
+      "p": 1104217
+    },
     {
       "N_p": 13,
       "a": 29,
@@ -336,48 +364,13 @@
       "c": 70709,
       "d": 907,
       "p": 1103467
-    },
-    {
-      "N_p": 14,
-      "a": 655,
-      "c": 74809,
-      "d": 1366,
-      "p": 1103341
-    },
-    {
-      "N_p": 14,
-      "a": 415,
-      "c": 65754,
-      "d": 1393,
-      "p": 1103561
-    },
-    {
-      "N_p": 14,
-      "a": 310,
-      "c": 72259,
-      "d": 1639,
-      "p": 1103533
-    },
-    {
-      "N_p": 14,
-      "a": 286,
-      "c": 147994,
-      "d": 1629,
-      "p": 1103461
-    },
-    {
-      "N_p": 14,
-      "a": 115,
-      "c": 119893,
-      "d": 496,
-      "p": 1103549
     }
   ],
-  "remaining_primes": 4012,
+  "remaining_primes": 4007,
   "schema_version": 1,
   "search_started": "2026-11-11 10:02:09 AM CST",
-  "status": "Assignment incomplete; matching Slurm allocation(s): 7252 RUNNING",
+  "status": "Assignment incomplete; no matching Slurm allocation is currently verified.",
   "total_primes": 11531,
-  "updated_local": "2026-11-19 17:07:02 CST",
-  "updated_utc": "2026-11-19T23:07:02+00:00"
+  "updated_local": "2026-11-19 18:07:02 CST",
+  "updated_utc": "2026-11-20T00:07:02+00:00"
 }
