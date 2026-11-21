@@ -5,7 +5,7 @@
   ],
   "completed_primes": 7679,
   "completion_percent_by_prime_count": 77.0907,
-  "elapsed": "0h 12m",
+  "elapsed": "unknown",
   "first_unfinished_prime": 1106293,
   "interval": {
     "start": 1000033,
@@ -13,20 +13,13 @@
   },
   "largest_completed_prime": 1106279,
   "largest_reported_N_p": 18,
-  "matching_active_jobs": [
-    {
-      "elapsed": "12:31",
-      "job_id": "7421",
-      "state": "RUNNING",
-      "time_limit": "1-00:00:00"
-    }
-  ],
+  "matching_active_jobs": [],
   "recent_saved_completions": [],
   "remaining_primes": 2282,
   "schema_version": 1,
-  "search_started": "2026-11-20 09:54:31 PM CST",
-  "status": "Assignment incomplete; matching Slurm allocation(s): 7421 RUNNING",
+  "search_started": "unknown",
+  "status": "Assignment incomplete; no matching Slurm allocation is currently verified.",
   "total_primes": 9961,
-  "updated_local": "2026-11-20 22:07:02 CST",
-  "updated_utc": "2026-11-21T04:07:02+00:00"
+  "updated_local": "2026-11-20 22:51:52 CST",
+  "updated_utc": "2026-11-21T04:51:52+00:00"
 }
