@@ -5,7 +5,7 @@
   ],
   "completed_primes": 8329,
   "completion_percent_by_prime_count": 79.3389,
-  "elapsed": "0h 26m",
+  "elapsed": "0h 48m",
   "first_unfinished_prime": 1111531,
   "interval": {
     "start": 1000033,
@@ -15,7 +15,7 @@
   "largest_reported_N_p": 18,
   "matching_active_jobs": [
     {
-      "elapsed": "26:15",
+      "elapsed": "48:17",
       "job_id": "7450",
       "state": "RUNNING",
       "time_limit": "4-04:00:00"
@@ -378,6 +378,6 @@
   "search_started": "2026-11-21 09:40:47 PM CST",
   "status": "Assignment incomplete; matching Slurm allocation(s): 7450 RUNNING",
   "total_primes": 10498,
-  "updated_local": "2026-11-21 22:07:02 CST",
-  "updated_utc": "2026-11-22T04:07:02+00:00"
+  "updated_local": "2026-11-21 22:29:04 CST",
+  "updated_utc": "2026-11-22T04:29:04+00:00"
 }
