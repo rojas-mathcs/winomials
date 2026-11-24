@@ -7,7 +7,7 @@
   "complete": false,
   "completed_primes": 0,
   "completion_percent_by_prime_count": 0.0,
-  "data_updated_utc": "2026-11-24T22:46:52+00:00",
+  "data_updated_utc": "2026-11-24T23:06:51+00:00",
   "first_unfinished_prime": 1299791,
   "global_interval": {
     "start": 1299791,
@@ -34775,16 +34775,16 @@
     {
       "allocation": {
         "detail": "Allocation status; scanner activity is not independently verified",
-        "elapsed": "30:59",
+        "elapsed": "42:06",
         "job_id": "7555",
         "state": "RUNNING",
         "time_limit": "20-20:00:00"
       },
       "completed_primes": 0,
       "current_invocation_started_utc": "2026-11-24T22:26:46+00:00",
-      "data_updated_utc": "2026-11-24T22:46:52+00:00",
+      "data_updated_utc": "2026-11-24T22:56:52+00:00",
       "diagnostics": [],
-      "elapsed_seconds": 1749,
+      "elapsed_seconds": 2416,
       "first_unfinished_prime": 1299791,
       "id": "whistler-a",
       "kind": "slurm",
@@ -34796,7 +34796,7 @@
       "snapshot_job_id": "7555",
       "snapshot_state": "running",
       "source_present": true,
-      "source_updated_utc": "2026-11-24T22:46:52+00:00",
+      "source_updated_utc": "2026-11-24T22:56:52+00:00",
       "stale": false,
       "start": 1299791,
       "stop": 1584546,
@@ -34805,16 +34805,16 @@
     {
       "allocation": {
         "detail": "Allocation status; scanner activity is not independently verified",
-        "elapsed": "30:59",
+        "elapsed": "42:06",
         "job_id": "7555",
         "state": "RUNNING",
         "time_limit": "20-20:00:00"
       },
       "completed_primes": 0,
       "current_invocation_started_utc": "2026-11-24T22:26:43+00:00",
-      "data_updated_utc": "2026-11-24T22:46:51+00:00",
+      "data_updated_utc": "2026-11-24T23:06:51+00:00",
       "diagnostics": [],
-      "elapsed_seconds": 1752,
+      "elapsed_seconds": 2419,
       "first_unfinished_prime": 1584547,
       "id": "whistler-b",
       "kind": "slurm",
@@ -34826,7 +34826,7 @@
       "snapshot_job_id": "7555",
       "snapshot_state": "running",
       "source_present": true,
-      "source_updated_utc": "2026-11-24T22:46:51+00:00",
+      "source_updated_utc": "2026-11-24T23:06:51+00:00",
       "stale": false,
       "start": 1584547,
       "stop": 1794892,
@@ -34835,5 +34835,5 @@
   ],
   "status": "Assignment incomplete; see saved-source and process status below.",
   "total_primes": 34707,
-  "updated_utc": "2026-11-24T22:55:55+00:00"
+  "updated_utc": "2026-11-24T23:07:02+00:00"
 }
