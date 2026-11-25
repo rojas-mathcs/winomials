@@ -5,10 +5,10 @@
     "Previously published rows may be retained when a saved source is unavailable or behind."
   ],
   "complete": false,
-  "completed_primes": 393,
-  "completion_percent_by_prime_count": 1.1323,
-  "data_updated_utc": "2026-11-25T10:06:59+00:00",
-  "first_unfinished_prime": 1303171,
+  "completed_primes": 430,
+  "completion_percent_by_prime_count": 1.2389,
+  "data_updated_utc": "2026-11-25T11:07:01+00:00",
+  "first_unfinished_prime": 1303507,
   "global_interval": {
     "start": 1299791,
     "stop": 2056289
@@ -53,35 +53,11 @@
       "stop": 1794892
     }
   ],
-  "largest_completed_prime": 1586723,
+  "largest_completed_prime": 1586869,
   "largest_reported_N_p": 16,
   "machine": "whistler",
   "missing_primes": [
-    1303171,
-    1303219,
-    1303241,
-    1303243,
-    1303261,
-    1303279,
-    1303283,
-    1303297,
-    1303307,
-    1303321,
-    1303327,
-    1303331,
-    1303363,
-    1303409,
-    1303411,
-    1303417,
-    1303427,
-    1303439,
-    1303453,
-    1303469,
-    1303481,
-    1303493,
-    1303499,
     1303507,
-    1303517,
     1303537,
     1303541,
     1303553,
@@ -19875,20 +19851,7 @@
     1584487,
     1584491,
     1584509,
-    1586551,
-    1586707,
-    1586719,
-    1586737,
-    1586771,
-    1586773,
-    1586777,
-    1586789,
-    1586791,
-    1586813,
     1586821,
-    1586857,
-    1586867,
-    1586869,
     1586881,
     1586887,
     1586891,
@@ -34376,13 +34339,156 @@
   "recent_saved_completions": [
     {
       "N_p": 14,
+      "a": 473,
+      "c": 12524,
+      "completed_utc": null,
+      "d": 1094,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586791,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 14,
+      "a": 11,
+      "c": 10910,
+      "completed_utc": null,
+      "d": 114,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586869,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 14,
+      "a": 107,
+      "c": 257974,
+      "completed_utc": null,
+      "d": 3664,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586857,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 14,
+      "a": 148,
+      "c": 62911,
+      "completed_utc": null,
+      "d": 701,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586867,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 14,
+      "a": 122,
+      "c": 202807,
+      "completed_utc": null,
+      "d": 515,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586773,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 14,
+      "a": 34,
+      "c": 14641,
+      "completed_utc": null,
+      "d": 821,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586813,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 16,
+      "a": 280,
+      "c": 4969,
+      "completed_utc": null,
+      "d": 2483,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586719,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 15,
+      "a": 295,
+      "c": 44447,
+      "completed_utc": null,
+      "d": 636,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586789,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 14,
+      "a": 160,
+      "c": 16900,
+      "completed_utc": null,
+      "d": 323,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586771,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 14,
+      "a": 1171,
+      "c": 69043,
+      "completed_utc": null,
+      "d": 2959,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586707,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 16,
+      "a": 555,
+      "c": 15066,
+      "completed_utc": null,
+      "d": 1723,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586551,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 14,
+      "a": 184,
+      "c": 5624,
+      "completed_utc": null,
+      "d": 1481,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586737,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 13,
+      "a": 44,
+      "c": 62461,
+      "completed_utc": null,
+      "d": 137,
+      "evidence": "saved row matched to DONE log",
+      "p": 1586777,
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
+      "shard": "whistler-b"
+    },
+    {
+      "N_p": 14,
       "a": 30,
       "c": 61624,
       "completed_utc": null,
       "d": 52901,
       "evidence": "saved row matched to DONE log",
       "p": 1586581,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34393,7 +34499,7 @@
       "d": 1213,
       "evidence": "saved row matched to DONE log",
       "p": 1586723,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34404,7 +34510,7 @@
       "d": 809,
       "evidence": "saved row matched to DONE log",
       "p": 1586647,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34415,7 +34521,7 @@
       "d": 719,
       "evidence": "saved row matched to DONE log",
       "p": 1586699,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34426,7 +34532,7 @@
       "d": 629,
       "evidence": "saved row matched to DONE log",
       "p": 1586623,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34437,7 +34543,7 @@
       "d": 1016,
       "evidence": "saved row matched to DONE log",
       "p": 1586621,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34448,7 +34554,7 @@
       "d": 905,
       "evidence": "saved row matched to DONE log",
       "p": 1586693,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34459,7 +34565,7 @@
       "d": 319,
       "evidence": "saved row matched to DONE log",
       "p": 1586617,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34470,7 +34576,7 @@
       "d": 799,
       "evidence": "saved row matched to DONE log",
       "p": 1586587,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34481,7 +34587,7 @@
       "d": 761,
       "evidence": "saved row matched to DONE log",
       "p": 1586539,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34492,7 +34598,7 @@
       "d": 995,
       "evidence": "saved row matched to DONE log",
       "p": 1586467,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34503,7 +34609,7 @@
       "d": 7600,
       "evidence": "saved row matched to DONE log",
       "p": 1586531,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34514,7 +34620,7 @@
       "d": 251,
       "evidence": "saved row matched to DONE log",
       "p": 1586537,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34525,7 +34631,7 @@
       "d": 948,
       "evidence": "saved row matched to DONE log",
       "p": 1586567,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34536,7 +34642,7 @@
       "d": 1284,
       "evidence": "saved row matched to DONE log",
       "p": 1586311,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34547,7 +34653,7 @@
       "d": 647,
       "evidence": "saved row matched to DONE log",
       "p": 1586527,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     },
     {
@@ -34558,183 +34664,40 @@
       "d": 956,
       "evidence": "saved row matched to DONE log",
       "p": 1586401,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 14,
-      "a": 65,
-      "c": 273284,
-      "completed_utc": null,
-      "d": 192,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586437,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 13,
-      "a": 180,
-      "c": 77018,
-      "completed_utc": null,
-      "d": 391,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586513,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 14,
-      "a": 451,
-      "c": 105697,
-      "completed_utc": null,
-      "d": 1516,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586419,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 14,
-      "a": 146,
-      "c": 118833,
-      "completed_utc": null,
-      "d": 1165,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586371,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 14,
-      "a": 497,
-      "c": 218913,
-      "completed_utc": null,
-      "d": 1795,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586251,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 15,
-      "a": 380,
-      "c": 138488,
-      "completed_utc": null,
-      "d": 2191,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586257,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 15,
-      "a": 658,
-      "c": 204987,
-      "completed_utc": null,
-      "d": 1681,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586209,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 14,
-      "a": 75,
-      "c": 122408,
-      "completed_utc": null,
-      "d": 283,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586201,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 14,
-      "a": 39,
-      "c": 114448,
-      "completed_utc": null,
-      "d": 263,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586393,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 15,
-      "a": 113,
-      "c": 1971,
-      "completed_utc": null,
-      "d": 989,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586191,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 13,
-      "a": 41,
-      "c": 210444,
-      "completed_utc": null,
-      "d": 145,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586381,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 13,
-      "a": 3,
-      "c": 48374,
-      "completed_utc": null,
-      "d": 166,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586339,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
-      "shard": "whistler-b"
-    },
-    {
-      "N_p": 14,
-      "a": 317,
-      "c": 179788,
-      "completed_utc": null,
-      "d": 1051,
-      "evidence": "saved row matched to DONE log",
-      "p": 1586161,
-      "saved_by_utc": "2026-11-25T10:06:59+00:00",
+      "saved_by_utc": "2026-11-25T11:07:01+00:00",
       "shard": "whistler-b"
     }
   ],
   "release_id": "trinomials-2056289-20261124-v1",
-  "remaining_primes": 34314,
+  "remaining_primes": 34277,
   "schema_version": 3,
   "search_started_utc": "2026-11-24T22:26:43+00:00",
   "shards": [
     {
       "allocation": {
         "detail": "Allocation status; scanner activity is not independently verified",
-        "elapsed": "11:42:06",
+        "elapsed": "12:42:06",
         "job_id": "7555",
         "state": "RUNNING",
         "time_limit": "20-20:00:00"
       },
-      "completed_primes": 250,
+      "completed_primes": 274,
       "current_invocation_started_utc": "2026-11-24T22:26:46+00:00",
-      "data_updated_utc": "2026-11-25T09:57:03+00:00",
+      "data_updated_utc": "2026-11-25T10:57:04+00:00",
       "diagnostics": [],
-      "elapsed_seconds": 42016,
-      "first_unfinished_prime": 1303171,
+      "elapsed_seconds": 45616,
+      "first_unfinished_prime": 1303507,
       "id": "whistler-a",
       "kind": "slurm",
       "name": "whistler-a",
       "process": null,
-      "remaining_primes": 19818,
+      "remaining_primes": 19794,
       "retained_primes": 0,
       "search_started_utc": "2026-11-24T22:26:46+00:00",
       "snapshot_job_id": "7555",
       "snapshot_state": "running",
       "source_present": true,
-      "source_updated_utc": "2026-11-25T09:57:03+00:00",
+      "source_updated_utc": "2026-11-25T10:57:04+00:00",
       "stale": false,
       "start": 1299791,
       "stop": 1584546,
@@ -34743,28 +34706,28 @@
     {
       "allocation": {
         "detail": "Allocation status; scanner activity is not independently verified",
-        "elapsed": "11:42:06",
+        "elapsed": "12:42:06",
         "job_id": "7555",
         "state": "RUNNING",
         "time_limit": "20-20:00:00"
       },
-      "completed_primes": 143,
+      "completed_primes": 156,
       "current_invocation_started_utc": "2026-11-24T22:26:43+00:00",
-      "data_updated_utc": "2026-11-25T10:06:59+00:00",
+      "data_updated_utc": "2026-11-25T11:07:01+00:00",
       "diagnostics": [],
-      "elapsed_seconds": 42019,
-      "first_unfinished_prime": 1586551,
+      "elapsed_seconds": 45619,
+      "first_unfinished_prime": 1586821,
       "id": "whistler-b",
       "kind": "slurm",
       "name": "whistler-b",
       "process": null,
-      "remaining_primes": 14496,
+      "remaining_primes": 14483,
       "retained_primes": 0,
       "search_started_utc": "2026-11-24T22:26:43+00:00",
       "snapshot_job_id": "7555",
       "snapshot_state": "running",
       "source_present": true,
-      "source_updated_utc": "2026-11-25T10:06:59+00:00",
+      "source_updated_utc": "2026-11-25T11:07:01+00:00",
       "stale": false,
       "start": 1584547,
       "stop": 1794892,
@@ -34773,5 +34736,5 @@
   ],
   "status": "Assignment incomplete; see saved-source and process status below.",
   "total_primes": 34707,
-  "updated_utc": "2026-11-25T10:07:02+00:00"
+  "updated_utc": "2026-11-25T11:07:02+00:00"
 }
